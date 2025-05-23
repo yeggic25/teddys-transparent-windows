@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teddy's Transparent Windows | Premium Window Cleaning in Orange County</title>
+    <meta name="description" content="Premium window, gutter & pressure-washing services for Orange County homes and businesses. Crystal-clear windows, guaranteed.">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-logo">
+                <a href="#home">
+                    <img src="assets/images/logo.png" alt="Teddy's Transparent Windows" class="logo-img">
+                </a>
+            </div>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#reviews">Reviews</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="#contact" class="btn btn-primary">Get a Fast Quote</a>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Crystal-Clear Windows, Guaranteed</h1>
+                <p>Premium window, gutter & pressure-washing services for Orange County homes and businesses.</p>
+                <div class="hero-call">
+                    <a href="tel:7145559469" class="phone-link">
+                        <i class="fas fa-phone"></i> (714) 555-WINDOW
+                    </a>
+                </div>
+            </div>
+            <div class="hero-form">
+                <h3>Get My Fast, Free Quote</h3>
+                <form id="hero-quote-form" class="quote-form">
+                    <div class="form-group">
+                        <input type="text" id="hero-name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="hero-email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="hero-phone" name="phone" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="hero-address" name="address" placeholder="Service Address" required>
+                    </div>
+                    <div class="form-group">
+                        <select id="hero-service" name="service" required>
+                            <option value="" disabled selected>Select Service</option>
+                            <option value="window-cleaning">Window Cleaning</option>
+                            <option value="pressure-washing">Pressure Washing</option>
+                            <option value="gutter-cleaning">Gutter Cleaning</option>
+                            <option value="solar-panel-cleaning">Solar Panel Cleaning</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="hero-message" name="message" placeholder="Brief message or special instructions"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">Request Quote</button>
+                </form>
+                <p class="form-footnote">Or call/text <a href="tel:7145559469">(714) 555-WINDOW</a></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2>One call, four spotless solutions.</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-window-maximize"></i>
+                    </div>
+                    <h3>Window Cleaning</h3>
+                    <p>Inside & out, tracks, screens, sills—nose-to-nose clean.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>Pressure Washing</h3>
+                    <p>Driveways, patios, decks, stucco & pavers.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-house"></i>
+                    </div>
+                    <h3>Gutter <br>Cleaning</h3>
+                    <p>Clog removal, downspout flush, photo proof.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <h3>Solar Panel Cleaning</h3>
+                    <p>Soft-brush DI rinse—boost efficiency up to 20%.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery" id="gallery">
+        <div class="container">
+            <h2>See the Difference</h2>
+            <div class="gallery-grid">
+                <div class="before-after-slider">
+                    <h3>Full House Pressure Wash</h3>
+                    <div class="slider-container" id="slider1">
+                        <div class="img-comp-container">
+                            <div class="img-comp-before">
+                                <img src="assets/images/patio-before.jpg" alt="Dirty patio doors before cleaning">
+                            </div>
+                            <div class="img-comp-after">
+                                <img src="assets/images/patio-after.jpg" alt="Clean patio doors after service">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="before-after-slider">
+                    <h3>Roof & Solar Panels</h3>
+                    <div class="slider-container" id="slider2">
+                        <div class="img-comp-container">
+                            <div class="img-comp-before">
+                                <img src="assets/images/storefront-before.jpg" alt="Dirty storefront windows before cleaning">
+                            </div>
+                            <div class="img-comp-after">
+                                <img src="assets/images/storefront-after.jpg" alt="Clean storefront windows after service">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="before-after-slider">
+                    <h3>Gutters & Windows</h3>
+                    <div class="slider-container" id="slider3">
+                        <div class="img-comp-container">
+                            <div class="img-comp-before">
+                                <img src="assets/images/gutters-before.jpg" alt="Dirty gutters before cleaning">
+                            </div>
+                            <div class="img-comp-after">
+                                <img src="assets/images/gutters-after.jpg" alt="Clean gutters after service">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews" id="reviews">
+        <div class="container">
+            <div class="reviews-header">
+                <h2>What Our Customers Say</h2>
+            </div>
+            <div class="testimonial-carousel-container">
+                <div class="testimonial-carousel-track">
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <p>"Windows so clean my dog walked into them!"</p>
+                            <div class="testimonial-author">- Jenna L., Irvine</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <p>"Showed up on time, left the place spotless."</p>
+                            <div class="testimonial-author">- Mark R., Tustin</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <p>"Even cleaned the tracks and screens at no extra cost."</p>
+                            <div class="testimonial-author">- Alex P., Huntington Beach</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <p>"Professional service and attention to detail is outstanding."</p>
+                            <div class="testimonial-author">- Sarah M., Newport Beach</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <p>"Best window cleaning service I've ever used!"</p>
+                            <div class="testimonial-author">- Mike D., Costa Mesa</div>
+                        </div>
+                    </div>
+                    <div class="testimonial-slide">
+                        <div class="testimonial-content">
+                            <p>"Reliable, affordable, and always exceeds expectations."</p>
+                            <div class="testimonial-author">- Lisa K., Laguna Beach</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="badges-row">
+                <div class="badge">
+                    <i class="fas fa-award"></i>
+                    <span>Quality Guaranteed</span>
+                </div>
+                <div class="badge">
+                    <i class="fas fa-users"></i>
+                    <span>Trusted Service</span>
+                </div>
+                <div class="badge">
+                    <i class="fas fa-clock"></i>
+                    <span>Always On Time</span>
+                </div>
+                <div class="badge">
+                    <i class="fas fa-star"></i>
+                    <span>5-Star Service</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-form">
+                    <h2>Ready for streak-free views?</h2>
+                    <p>Fill out the form and we'll get back to you shortly.</p>
+                    <form id="contact-form" class="quote-form">
+                        <div class="form-group">
+                            <input type="text" id="contact-name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="contact-email" name="email" placeholder="Email Address" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="contact-phone" name="phone" placeholder="Phone Number" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="contact-address" name="address" placeholder="Service Address" required>
+                        </div>
+                        <div class="form-group">
+                            <div class="service-checkboxes">
+                                <label><input type="checkbox" name="services[]" value="window-cleaning"> Window Cleaning</label>
+                                <label><input type="checkbox" name="services[]" value="pressure-washing"> Pressure Washing</label>
+                                <label><input type="checkbox" name="services[]" value="gutter-cleaning"> Gutter Cleaning</label>
+                                <label><input type="checkbox" name="services[]" value="solar-panel"> Solar Panel Cleaning</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="contact-message" name="message" placeholder="Message or special instructions" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Request Quote</button>
+                    </form>
+                </div>
+                <div class="contact-info">
+                    <div class="info-card">
+                        <h3>Contact Us</h3>
+                        <div class="info-item">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:7145559469">(714) 555-WINDOW</a>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Mon–Sat 7 AM–6 PM</span>
+                        </div>
+                        <div class="info-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>All of Orange County</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.png" alt="Teddy's Transparent Windows" class="footer-logo-img">
+                    <p>Nose-to-nose clean—every pane, every time.</p>
+                </div>
+                <div class="footer-nav">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#reviews">Reviews</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-yelp"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-google"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2025 Teddy's Transparent Windows – Lic #ABC-123456 – Orange County, CA</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html> 
