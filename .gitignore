@@ -1,0 +1,24 @@
+# Large image files (temporarily excluded)
+assets/images/*.jpg
+assets/images/*.jpeg
+assets/images/*.png
+!assets/images/logo.png
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock 
